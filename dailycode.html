@@ -8,8 +8,9 @@
     
     <script type="text/javascript">
       const d = new Date();
-let myday = d.getDate() + 30;
-      mycode = myday;
+      let mydow = d.getDay() + 10;
+      let myday = d.getDate() + 30;
+      mycode = '' + mydow + myday;
       document.getElementById("dailycode").innerHTML = mycode;
     </script>
     
