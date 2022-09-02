@@ -8,7 +8,7 @@
     
     <script type="text/javascript">
       const d = new Date();
-      let mydow = 100 * (d.getDay() + 3) + (2 * (d.getMonth() + 1)) + d.getDay();
+      let mydow = 100 * (d.getDay() + 3) + (2 * d.getMonth()) + d.getDay();
       let myday = d.getDate() + 35;
       mycode = '' + mydow + myday;
       document.getElementById("dailycode").innerHTML = mycode;
