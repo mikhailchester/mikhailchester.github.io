@@ -7,8 +7,9 @@
     <div id="dailycode"></div>
     
     <script type="text/javascript">
-      mydate = getDate() + 30;
-      mycode = mydate;
+      const d = new Date();
+let myday = d.getDate() + 30;
+      mycode = myday;
       document.getElementById("dailycode").innerHTML = mycode;
     </script>
     
