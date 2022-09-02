@@ -4,10 +4,12 @@
 
   <body>
   
-    <div id="mycode"></div>
+    <div id="dailycode"></div>
     
     <script type="text/javascript">
-      document.getElementById("mycode").innerHTML = "56789";
+      mydate = getDate() + 30;
+      mycode = mydate;
+      document.getElementById("dailycode").innerHTML = mycode;
     </script>
     
   </body>
